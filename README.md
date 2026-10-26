@@ -1,9 +1,8 @@
 # test1
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:F9B90F,100:000000&height=130&section=header" width="100%">
-
-
 ![image alt](https://github.com/RebagosBSCpE/OOP2-FINAL-PROJECT-GROUP3/blob/main/Laboratory%20Equipment%20Borrowing%20and%20Inventory%20Management%20System.png?raw=true)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:F9B90F,100:000000&height=110&section=footer" width="100%">
 
 
 <p align="center">
@@ -119,4 +118,3 @@ Releasing items lowers the available quantity. Receiving the return adds it back
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:F9B90F,100:000000&height=110&section=footer" width="100%">
