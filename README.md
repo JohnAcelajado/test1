@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:F9B90F,100:000000&height=130&section=header" width="100%">
 
 <p align="center">
-  <img src="assets/banner.png" alt="Laboratory Equipment Borrowing and Inventory Management System" width="100%">
+  <
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=F9B90F">
   <img src="https://img.shields.io/badge/PyQt6-F9B90F?style=for-the-badge&logo=qt&logoColor=black">
   <img src="https://img.shields.io/badge/QSS_Styled-000000?style=for-the-badge&logoColor=F9B90F">
-  <img src="https://img.shields.io/badge/JSON_Storage-F9B90F?style=for-the-badge&logoColor=black">
+  <img src="https://img.shields.io/badge/CSV_Storage-F9B90F?style=for-the-badge&logoColor=black">
   <img src="https://img.shields.io/badge/PyInstaller-000000?style=for-the-badge&logoColor=F9B90F">
 </p>
 
