@@ -1,35 +1,20 @@
-# test1
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:F9B90F,100:000000&height=130&section=header" width="100%">
 
+# OOP2-FINAL-PROJECT-GROUP3
+
+
 ![image alt](https://github.com/RebagosBSCpE/OOP2-FINAL-PROJECT-GROUP3/blob/main/Laboratory%20Equipment%20Borrowing%20and%20Inventory%20Management%20System.png?raw=true)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:F9B90F,100:000000&height=110&section=footer" width="100%">
-
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=F9B90F&background=000000&center=true&vCenter=true&width=760&height=60&lines=Request.+Approve.+Release.+Return.;Paper+slips+out%2C+PyQt6+in.;CPE+009B+%7C+OOP+2+Final+Project" alt="Typing animation">
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=F9B90F">
-  <img src="https://img.shields.io/badge/PyQt6-F9B90F?style=for-the-badge&logo=qt&logoColor=black">
-  <img src="https://img.shields.io/badge/QSS_Styled-000000?style=for-the-badge&logoColor=F9B90F">
-  <img src="https://img.shields.io/badge/CSV_Storage-F9B90F?style=for-the-badge&logoColor=black">
-  <img src="https://img.shields.io/badge/PyInstaller-000000?style=for-the-badge&logoColor=F9B90F">
-</p>
 
 <br>
 
 ## 📌 About the Project
 
-In most school laboratories, borrowing equipment still means a paper slip: the student fills it out, hunts down the professor for a signature, brings it to the lab staff, and the staff writes it in a logbook. Slips get lost, handwriting is unreadable, and nobody can tell what is still available or who is holding what.
+In most school laboratories, borrowing equipment relies on a paper-based method students fill out physical slips, hunt down professors for signatures, and hand them to the laboratory staff to write down. Paper forms get lost, signatures are hard to track down, and staff cannot easily verify which items are currently available or who holds what.
 
-This PyQt6 desktop application keeps the **same borrowing steps**, but in one place. The student sends a slip, the professor approves or rejects it, and the laboratory staff release and receive the items while the inventory updates by itself.
-
-> 🌍 Supports **SDG 9: Industry, Innovation, and Infrastructure** by replacing a paper logbook with a small, reliable software tool.
+This PyQt6 desktop application eliminates paper-based methods to make borrowing faster, more convenient, and easily accessible at any time. It keeps the same borrowing steps but digitizes them in one centralized system students submit borrowing requests digitally, every request is recorded in the ITSO CSV log, professors approve or reject them online, and laboratory staff release and receive items while maintaining staff-based records and real-time inventory updates. Packaged as a standalone .exe, this PyQt6 application solves the problem by preventing lost slips, stopping invalid requests, and keeping stock counts automatically accurate.
 
 <br>
 
@@ -37,7 +22,7 @@ This PyQt6 desktop application keeps the **same borrowing steps**, but in one pl
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### 🎓 Student
 - Logs in and fills out a borrow slip
@@ -46,7 +31,15 @@ This PyQt6 desktop application keeps the **same borrowing steps**, but in one pl
 - Tracks the slip status
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
+
+### 🗂️ ITSO
+- Logs in and sees every submitted request in the CSV log
+- Refreshes the log to see the newest requests and statuses
+- Generates or deletes a backup folder of the records
+
+</td>
+<td width="25%" valign="top">
 
 ### 👨‍🏫 Professor
 - Logs in and sees slips sent to him or her
@@ -54,55 +47,33 @@ This PyQt6 desktop application keeps the **same borrowing steps**, but in one pl
 - Adds optional remarks
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### 🧑‍🔧 Laboratory Staff
 - Logs in and sees approved slips
 - Releases items against the student ID
 - Receives returned items
-- Adds, edits, and deletes equipment
+- See the available materials inside inventory
 
 </td>
 </tr>
 </table>
 
-<br>
-
-## 🔄 Slip Lifecycle
-
-```mermaid
-flowchart LR
-    A([Pending]) --> B{Professor}
-    B -->|approves| C([Approved])
-    B -->|rejects| D([Rejected])
-    C -->|staff release items| E([Released])
-    E -->|staff receive return| F([Returned])
-
-    style A fill:#F9B90F,stroke:#000,color:#000
-    style B fill:#000,stroke:#F9B90F,color:#F9B90F
-    style C fill:#F9B90F,stroke:#000,color:#000
-    style D fill:#fff,stroke:#000,color:#000
-    style E fill:#F9B90F,stroke:#000,color:#000
-    style F fill:#000,stroke:#F9B90F,color:#F9B90F
-```
-
-Releasing items lowers the available quantity. Receiving the return adds it back.
-
-<br>
 
 ## ✨ Features
 
 | | Feature | Description |
 |:-:|---|---|
-| 🔐 | **Role-based login** | Opens the dashboard that matches the user: student, professor, or staff |
+| 🔐 | **Role-based login** | Opens the dashboard that matches the user: student, ITSO, professor, or staff |
 | 📝 | **Borrow slip form** | Items, quantities, purpose, date needed, and the professor to send it to |
+| 🗂️ | **ITSO maintenance dashboard** | Shows every submitted request in a table, with Sync / Refresh CSV Log, Generate Backup Folder, and Delete Backup Folder |
+| 🧾 | **CSV request log** | Each submitted slip is saved automatically in the ITSO CSV log, and every status change is updated in it |
 | 📊 | **Slip tracking** | Statuses: Pending, Approved, Rejected, Released, Returned |
 | ✅ | **Approve or reject** | Professors review their slips with optional remarks |
 | 📦 | **Release and return** | Staff verify the student ID, release items, and receive returns |
 | 🗃️ | **Inventory management** | Add, edit, and delete equipment with total, available, and borrowed counts |
-| 🔎 | **Search and filter** | Find slips by keyword or filter by status on every dashboard |
-| 💾 | **Save and load** | Users, equipment, and slips are stored in `data.json` and kept after closing |
-| 🧭 | **Menu bar and toolbar** | Save, Logout, Exit, and About for quick access |
+| 💾 | **Save and load** | Users, equipment, and slips are stored in `csv` and kept after closing |
+| 🧭 | **Menu bar and toolbar** | Save, Logout, and Exit|
 | 🛡️ | **Input validation** | Blocks empty fields, zero or excessive quantities, and unavailable items |
 
 <br>
@@ -114,9 +85,6 @@ Releasing items lowers the available quantity. Receiving the return adds it back
 | **Python** | Programming language |
 | **PyQt6** | Graphical user interface |
 | **QSS (Qt Style Sheets)** | White, yellow, and black theme |
-| **json** | Saving and loading data |
-| **PyInstaller** | Packaging as a Windows `.exe` |
+| **Csv** | Saving and loading data |
+| **PyInstaller** | Packaging as a Windows .exe |
 | **Git and GitHub** | Version control and teamwork |
-
-<br>
-
