@@ -83,17 +83,17 @@ This PyQt6 desktop application eliminates paper-based methods to make borrowing 
 
 | | Feature | Description |
 |:-:|---|---|
-| 🔐 | **Role-based login** | Opens the dashboard that matches the user: student, ITSO, professor, or staff |
-| 📝 | **Borrow slip form** | Items, quantities, purpose, date needed, and the professor to send it to |
-| 🗂️ | **ITSO maintenance dashboard** | Shows every submitted request in a table, with Sync / Refresh CSV Log, Generate Backup Folder, and Delete Backup Folder |
-| 🧾 | **CSV request log** | Each submitted slip is saved automatically in the ITSO CSV log, and every status change is updated in it |
-| 📊 | **Slip tracking** | Statuses: Pending, Approved, Rejected, Released, Returned |
-| ✅ | **Approve or reject** | Professors review their slips with optional remarks |
-| 📦 | **Release and return** | Staff verify the student ID, release items, and receive returns |
-| 🗃️ | **Inventory management** | Add, edit, and delete equipment with total, available, and borrowed counts |
-| 💾 | **Save and load** | Users, equipment, and slips are stored in `csv` and kept after closing |
-| 🧭 | **Menu bar and toolbar** | Save, Logout, and Exit|
-| 🛡️ | **Input validation** | Blocks empty fields, zero or excessive quantities, and unavailable items |
+| <img src="https://img.shields.io/badge/01-FADE00?style=flat-square" alt="01"> | **Role-based login** | Opens the dashboard that matches the user: student, ITSO, professor, or staff |
+| <img src="https://img.shields.io/badge/02-FADE00?style=flat-square" alt="02"> | **Borrow slip form** | Items, quantities, purpose, date needed, and the professor to send it to |
+| <img src="https://img.shields.io/badge/03-FADE00?style=flat-square" alt="03"> | **ITSO maintenance dashboard** | Shows every submitted request in a table, with Sync / Refresh CSV Log, Generate Backup Folder, and Delete Backup Folder |
+| <img src="https://img.shields.io/badge/04-FADE00?style=flat-square" alt="04"> | **CSV request log** | Each submitted slip is saved automatically in the ITSO CSV log, and every status change is updated in it |
+| <img src="https://img.shields.io/badge/05-FADE00?style=flat-square" alt="05"> | **Slip tracking** | Statuses: Pending, Approved, Rejected, Released, Returned |
+| <img src="https://img.shields.io/badge/06-FADE00?style=flat-square" alt="06"> | **Approve or reject** | Professors review their slips with optional remarks |
+| <img src="https://img.shields.io/badge/07-FADE00?style=flat-square" alt="07"> | **Release and return** | Staff verify the student ID, release items, and receive returns |
+| <img src="https://img.shields.io/badge/08-FADE00?style=flat-square" alt="08"> | **Inventory management** | Add, edit, and delete equipment with total, available, and borrowed counts |
+| <img src="https://img.shields.io/badge/09-FADE00?style=flat-square" alt="09"> | **Save and load** | Users, equipment, and slips are stored in `csv` and kept after closing |
+| <img src="https://img.shields.io/badge/10-FADE00?style=flat-square" alt="10"> | **Menu bar and toolbar** | Save, Logout, and Exit|
+| <img src="https://img.shields.io/badge/11-FADE00?style=flat-square" alt="11"> | **Input validation** | Blocks empty fields, zero or excessive quantities, and unavailable items |
 
 <img src="https://placehold.co/900x4/BCBDC1/BCBDC1" width="100%" alt="">
 
