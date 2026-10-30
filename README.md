@@ -1,11 +1,15 @@
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:F9B90F,100:000000&height=130&section=header" width="100%">
-
 # OOP2-FINAL-PROJECT-GROUP3
 
 
 ![image alt](https://github.com/RebagosBSCpE/OOP2-FINAL-PROJECT-GROUP3/blob/main/Laboratory%20Equipment%20Borrowing%20and%20Inventory%20Management%20System.png?raw=true)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-FADE00?style=for-the-badge&labelColor=231F20" alt="Python 3.12">
+  <img src="https://img.shields.io/badge/PyQt6-6.11.0-FADE00?style=for-the-badge&labelColor=231F20" alt="PyQt6 6.11.0">
+  <img src="https://img.shields.io/badge/Storage-CSV-FADE00?style=for-the-badge&labelColor=231F20" alt="Storage CSV">
+  <img src="https://img.shields.io/badge/Packaged%20with-PyInstaller-FADE00?style=for-the-badge&labelColor=231F20" alt="PyInstaller">
+  <img src="https://img.shields.io/badge/CPE%20009B-OOP%202-BCBDC1?style=for-the-badge&labelColor=231F20" alt="CPE 009B OOP 2">
+</p>
 
 
 <br>
